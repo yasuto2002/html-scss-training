@@ -1,13 +1,87 @@
-@charset "utf-8";
 body {
   margin: 0;
   padding: 0;
-  background-color: #cccccc;
+  background-color: #fff;
   color: #333333;
   font-size: 15px;
   line-height: 2;
-  position:    relative;
-}
-ul { margin: 0; padding: 0; }
-a { color: #3583aa; text-decoration: none; }
-a:hover { text-decoration: underline; }
+  position: relative; }
+  body .header {
+    background-image: URL(b61deca070f8947d5f57fd790a415ae6.jpeg);
+    height: 300px;
+    width: 960px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto; }
+    body .header__nav--list {
+      float: right;
+      margin-top: 60px; }
+      body .header__nav--list li {
+        float: left;
+        margin: 0 20px;
+        font-size: 20px;
+        list-style: none;
+        font-family: 'Bitter', serif; }
+        body .header__nav--list li a {
+          color: #fff;
+          text-decoration: none; }
+          body .header__nav--list li a :hover {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 3px;
+            text-decoration: underline; }
+  body #wrap {
+    clear: both;
+    background-color: #ffffff;
+    padding: 35px 0; }
+  body .clearfix :after {
+    content: "";
+    display: block;
+    clear: both; }
+  body .clearfix .content {
+    width: 960px;
+    margin: 0 auto; }
+    body .clearfix .content .main {
+      width: 700px;
+      margin: 0 10px;
+      float: left; }
+      body .clearfix .content .main h1 {
+        border-bottom: 1px solid #ccc; }
+      body .clearfix .content .main__section {
+        margin-bottom: 35px; }
+        body .clearfix .content .main__section--heding a {
+          color: #3583aa;
+          text-decoration: none; }
+          body .clearfix .content .main__section--heding a :hover {
+            text-decoration: underline; }
+        body .clearfix .content .main__section--text a {
+          color: #3583aa;
+          text-decoration: none; }
+          body .clearfix .content .main__section--text a :hover {
+            text-decoration: underline; }
+    body .clearfix .content .sidebar {
+      width: 200px;
+      margin: 0 10px 0 30px;
+      float: right;
+      font-family: 'Bitter', serif; }
+      body .clearfix .content .sidebar__section {
+        margin-bottom: 35px; }
+        body .clearfix .content .sidebar__section--heading {
+          margin-bottom: 10px; }
+        body .clearfix .content .sidebar__section--list {
+          font-size: 16px;
+          margin-left: 20px;
+          padding-left: 0; }
+          body .clearfix .content .sidebar__section--list li a {
+            color: #000;
+            text-decoration: none; }
+            body .clearfix .content .sidebar__section--list li a :hover {
+              text-decoration: underline; }
+  body footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    background-color: #767671; }
+    body footer small {
+      font-size: 12px; }
