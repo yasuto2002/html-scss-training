@@ -6,7 +6,7 @@ body{
     font-size: 15px;
     line-height: 2;
     position:    relative;
-    header{
+    .header{
         background-image: URL("images/image02.jpeg");
         height:300px;
         width: 960px;
@@ -15,8 +15,8 @@ body{
         background-position: center top;
         background-attachment: fixed;
         background-size: 100% auto;
-        nav{
-            .global-nav{
+        &__nav{
+            &--list{
                 float: right;
                 margin-top: 60px;
                 li{
@@ -60,9 +60,9 @@ body{
                  border-bottom:1px solid #ccc;
 
                 }
-                section{
+                &__section{
                     margin-bottom: 35px;
-                    h2{
+                    &--heding{
                         a{
                             color: #3583aa; 
                             text-decoration: none;
@@ -71,17 +71,12 @@ body{
                             }
                         }
                     }
-                    p{
+                    &--text{
                         a{
                             color: #3583aa; 
                             text-decoration: none;
                             :hover{
                                 text-decoration: underline; 
-                            }
-                            img{
-                                :hover{
-                                  opacity: 0.8;  
-                                }
                             }
                         }
                     }
@@ -92,12 +87,12 @@ body{
                 margin: 0 10px 0 30px;
                 float: right;
                 font-family: 'Bitter', serif;
-                section{
+                &__section{
                     margin-bottom: 35px;
-                    h2{
+                    &--heading{
                         margin-bottom: 10px;
                     }
-                    ul{
+                    &--list{
                         font-size: 16px;
                         margin-left: 20px;
                         padding-left: 0;

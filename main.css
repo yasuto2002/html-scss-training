@@ -6,7 +6,7 @@ body {
   font-size: 15px;
   line-height: 2;
   position: relative; }
-  body header {
+  body .header {
     background-image: URL(b61deca070f8947d5f57fd790a415ae6.jpeg);
     height: 300px;
     width: 960px;
@@ -15,19 +15,19 @@ body {
     background-position: center top;
     background-attachment: fixed;
     background-size: 100% auto; }
-    body header nav .global-nav {
+    body .header__nav--list {
       float: right;
       margin-top: 60px; }
-      body header nav .global-nav li {
+      body .header__nav--list li {
         float: left;
         margin: 0 20px;
         font-size: 20px;
         list-style: none;
         font-family: 'Bitter', serif; }
-        body header nav .global-nav li a {
+        body .header__nav--list li a {
           color: #fff;
           text-decoration: none; }
-          body header nav .global-nav li a :hover {
+          body .header__nav--list li a :hover {
             border-bottom: 2px solid #fff;
             padding-bottom: 3px;
             text-decoration: underline; }
@@ -48,37 +48,35 @@ body {
       float: left; }
       body .clearfix .content .main h1 {
         border-bottom: 1px solid #ccc; }
-      body .clearfix .content .main section {
+      body .clearfix .content .main__section {
         margin-bottom: 35px; }
-        body .clearfix .content .main section h2 a {
+        body .clearfix .content .main__section--heding a {
           color: #3583aa;
           text-decoration: none; }
-          body .clearfix .content .main section h2 a :hover {
+          body .clearfix .content .main__section--heding a :hover {
             text-decoration: underline; }
-        body .clearfix .content .main section p a {
+        body .clearfix .content .main__section--text a {
           color: #3583aa;
           text-decoration: none; }
-          body .clearfix .content .main section p a :hover {
+          body .clearfix .content .main__section--text a :hover {
             text-decoration: underline; }
-          body .clearfix .content .main section p a img :hover {
-            opacity: 0.8; }
     body .clearfix .content .sidebar {
       width: 200px;
       margin: 0 10px 0 30px;
       float: right;
       font-family: 'Bitter', serif; }
-      body .clearfix .content .sidebar section {
+      body .clearfix .content .sidebar__section {
         margin-bottom: 35px; }
-        body .clearfix .content .sidebar section h2 {
+        body .clearfix .content .sidebar__section--heading {
           margin-bottom: 10px; }
-        body .clearfix .content .sidebar section ul {
+        body .clearfix .content .sidebar__section--list {
           font-size: 16px;
           margin-left: 20px;
           padding-left: 0; }
-          body .clearfix .content .sidebar section ul li a {
+          body .clearfix .content .sidebar__section--list li a {
             color: #000;
             text-decoration: none; }
-            body .clearfix .content .sidebar section ul li a :hover {
+            body .clearfix .content .sidebar__section--list li a :hover {
               text-decoration: underline; }
   body footer {
     text-align: center;
